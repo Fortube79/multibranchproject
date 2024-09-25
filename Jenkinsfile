@@ -1,9 +1,10 @@
 pipeline {
     agent any
-    environment {
-        CI = 'true'
     tools {
         nodejs 'NodeJS' // Usa el nombre que diste a la instalación de NodeJS
+    }
+    environment {
+        CI = 'true'
     }
     }
     stages {
