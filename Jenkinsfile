@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'NodeJS' // Usa el nombre que diste a la instalación de NodeJS
+        nodejs 'NodeJS 16.20.2' // Usa el nombre que diste a la instalación de NodeJS
     }
     environment {
         CI = 'true'
